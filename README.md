@@ -1,4 +1,5 @@
 # MJ Fleer 1986-87 Rookie Card Tracker Project
+https://public.tableau.com/app/profile/noah.eisenberg/viz/EbayWorkbook/Dashboard1
 My Project utilizes the Ebay Developer API to track and monitor the prices of the Michael Jordan 1986-87 Fleer Rookie Card, utilizing Tableau to create a real-time dashboard of listings data.
 
 # The Inspiration
@@ -19,8 +20,6 @@ Data collected on listings includes:
 - Listing Location
 
 # The Dashboard (Still Being Added To/Updated)
-https://public.tableau.com/app/profile/noah.eisenberg/viz/EbayWorkbook/Dashboard1
-
 Used Tableau to create an interactive dashboard that includes various visualizations depciting the current and evolving state of the card's Ebay market. 
 
 Note: Dashboard Only Includes Listings That Fit This Criteria:
