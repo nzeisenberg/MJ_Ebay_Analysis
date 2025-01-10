@@ -1,4 +1,4 @@
-# MJ Rookie Card Tracker Project
+# MJ Fleer 1986-87 Rookie Card Tracker Project
 My Project utilizes the Ebay Developer API to track and monitor the prices of the Michael Jordan 1986-87 Fleer Rookie Card, utilizing Tableau to create a real-time dashboard of listings data.
 
 # The Inspiration
