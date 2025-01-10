@@ -20,6 +20,7 @@ Data collected on listings includes:
 - Current Date
 - Listing Location
 
+Note: Data in Repo is example data from 1/9/25
 # The Dashboard (Still Being Added To/Updated)
 Used Tableau to create an interactive dashboard that includes various visualizations depciting the current and evolving state of the card's Ebay market. 
 
