@@ -1,12 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
-# In[286]:
-
-
 import requests
 import pandas as pd
 import xml.etree.ElementTree as ET
@@ -17,7 +8,6 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 import os
 dir = os.path.dirname(os.path.abspath(__file__))
-# In[318]:
 
 
 def request(page):
@@ -49,10 +39,6 @@ def request(page):
         print(f"Error: {response.status_code}")
         print(f"Error: {response.text}")
 
-
-# In[320]:
-
-
 def parse(data): 
     root = ET.fromstring(data)
     ns = {'': 'http://www.ebay.com/marketplace/search/v1/services'}
@@ -74,10 +60,6 @@ def parse(data):
         items.append(item_d)
     return(items)
 
-
-# In[458]:
-
-
 def wrangle(items):
     df = pd.DataFrame(items)
     def psa(title):
@@ -88,10 +70,6 @@ def wrangle(items):
     df["rating"] = df["rating"].apply(lambda x: x[0][1])
     return(df)
 df = None
-
-
-# In[1026]:
-
 
 def get_cards():
     df = None
@@ -105,11 +83,6 @@ def get_cards():
     date = datetime.now().strftime('%Y-%m-%d')
     df.to_csv(f"{dir}/cards/mj-{date}.csv")
     
-
-
-# In[1040]:
-
-
 def run():
     get_cards()
     date = datetime.now().strftime('%Y-%m-%d')
@@ -147,15 +120,7 @@ def run():
     changes_2.to_csv(f"{dir}/changes2.csv")
     print(f"Done: {date}")
 
-
-# In[1042]:
-
-
 run()
-
-
-# In[ ]:
-
 
 
 
