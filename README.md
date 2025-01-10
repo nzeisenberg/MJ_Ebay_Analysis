@@ -18,10 +18,15 @@ Data collected on listings includes:
 - Current Date
 - Listing Location
 
-# The Dashboard
+# The Dashboard (Still Being Added To/Updated)
 https://public.tableau.com/app/profile/noah.eisenberg/viz/EbayWorkbook/Dashboard1
 
 Used Tableau to create an interactive dashboard that includes various visualizations depciting the current and evolving state of the card's Ebay market. 
+
+Note: Dashboard Only Includes Listings That Fit This Criteria:
+- Price is > $800
+- Price is < 3x the most recent sold price at the rating level (https://www.sportscardspro.com/game/basketball-cards-1986-fleer/michael-jordan-57)
+- Listing does NOT contain the term **"sticker"** (The 1986-87 Rookie Sticker is a different trading item)
 
 
 
